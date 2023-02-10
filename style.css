@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: poppins;
+}
+
+.header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-size: 18px; 
+    font-family: poppins;
+}
+
+.bouton{
+    width: 112px;
+    height: 41px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+}
+
+.boutonMoin{
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    color: #0BAB5E;
+    border-radius: 30px;
+}
+
+.boutonPlus{
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    color: #0BAB5E;
+    border-radius: 30px;
+}
+
+
+.boutonInt, .bouton, .boutonPlus, .boutonMoin{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.boutonInt{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.payer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 24px;
+
+}
+
+.uneFois{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+    background-color: #0BAB5E;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.separement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+    border: solid 1px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.adresse{
+    width: 340px;
+    height: 38px;
+    background-color: #EEEEEE;
+    color: #6B6B6B;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adresse span{
+    margin-right: 8px;
+}
+
+.ads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.cards{
+    width: 104px;
+    height: 90px;
+    border-radius: 8px;
+    background-color: red;
+    margin-bottom: 16px;
+}
+
+.resto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.decPlus{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 12px;
+    margin-right: 22px;
+}
+
+.personne{
+    width: 350px;
+    height: 52px;
+    background-color: #0BAB5E;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.groupe{
+    width: 350px;
+    height: 52px;
+    border: solid 1px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 38px;
+}
+
+.groupe span{
+    margin-left: 48px;
+}
+
+.boutonGroupe{
+    width: 167px;
+    height: 54px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+i{
+    margin-left: 5px;
+}
+
+.pizza{
+    background-image: url(image/pizza.jpeg);
+    background-size: 100%;
+}
+
+.tajine{
+    background-image: url(image/tajine.jpeg);
+    background-size: 130%;
+}
+
+.couscous {
+    background-image: url(image/couscous.jpeg);
+    background-size: 100%;
+}
+
+.tarte{
+    background-image: url(image/tarte.jpeg);
+    background-size: 100%;
+}
+
+.dessert{
+    background-image: url(image/dessert.jpeg);
+    background-size: 100%;
+}
+
+.salade {
+    background-image: url(image/salade.jpeg);
+    background-size: 100%;
+}
+
+.lasagne {
+    background-image: url(image/lasagne.jpeg);
+    background-size: 100%;
+}
+
+.plat {
+    background-image: url(image/plat.jpeg);
+    background-size: 100%;
+}
+
+.sushi{
+    background-image: url(image/sushi.jpeg);
+    background-size: 200%;
+}
